@@ -1,0 +1,38 @@
+:root{--plum:#241229;--blush:#d9a6ad;--pearl:#fffdf8;--cobalt:#a67b43;--acid:#f3dfbc;--soft:#f3ebe8;--line:#826f79}
+body{background:var(--pearl);color:var(--plum);font-family:"DM Sans",sans-serif}
+h1,h2{font-family:Manrope,sans-serif;font-weight:800;letter-spacing:-.065em}
+header{height:104px;padding:0 4vw;background:rgba(255,253,248,.96);border-bottom:1px solid #d6c4bb}
+.logo{font-family:Manrope,sans-serif;font-size:.86rem;letter-spacing:.2em}.logo span{color:var(--cobalt)}
+nav a{font-size:.78rem;text-transform:uppercase;letter-spacing:.1em;font-weight:700}
+.hero{min-height:780px;grid-template-columns:43% 57%;background:linear-gradient(120deg,var(--pearl) 0 48%,#ead8d6 48%)}
+.hero-copy{padding:7vw 4vw 6vw 7vw}.hero h1{max-width:760px;font-family:Georgia,serif;font-weight:500;letter-spacing:-.045em}.hero h1 em{color:var(--cobalt)}
+.hero-copy:before{content:"GRACEFUL / EDITION 01";display:block;width:max-content;margin-bottom:2rem;padding:.55rem .85rem;background:transparent;border:1px solid var(--cobalt);font:700 .68rem/1 "DM Sans";letter-spacing:.2em}
+.hero figure{margin:2.5rem 3rem 2.5rem 0;clip-path:polygon(8% 0,100% 0,100% 92%,92% 100%,0 100%,0 8%);box-shadow:none}
+.hero figcaption{background:var(--plum);color:var(--pearl);right:1rem;left:auto;bottom:1rem;transform:none}
+.button{background:var(--plum);border:1px solid var(--plum);box-shadow:none;border-radius:99px}
+.ticker{background:var(--plum);color:var(--acid);padding:1.35rem;transform:none;margin:0}
+.manifesto{background:var(--soft);grid-template-columns:.5fr 2.3fr .9fr;border-bottom:1px solid var(--line)}
+.manifesto h2{color:var(--cobalt)}
+.lookbook{padding-top:7vw;grid-template-columns:1.15fr .7fr 1.1fr;grid-template-rows:230px 420px}
+.lookbook .tall{box-shadow:-12px 12px 0 var(--blush)}.lookbook .wide{box-shadow:12px -12px 0 var(--acid)}
+.lookbook .note{background:var(--plum);color:white;border-left:0;border-top:6px solid var(--cobalt)}
+.lookbook span{background:var(--acid);color:var(--plum);font-weight:800}
+.collective{background:var(--plum);border-top:8px solid var(--cobalt)}
+.collective .kicker,.collective b{color:var(--acid)}
+.featured{background:var(--pearl)}.journal{background:var(--soft)}
+.sectionhead{border-top:2px solid var(--plum);padding-top:1.5rem}
+.product{background:white;border:1px solid #dbcbd3;padding:.7rem;transition:transform .25s,box-shadow .25s}
+.product:hover{transform:translateY(-7px);box-shadow:0 18px 40px rgba(36,18,41,.16)}
+.product figure span{background:var(--acid);font-weight:800}.product small{color:var(--cobalt)}
+.post{border-top:8px solid var(--cobalt)}.post:nth-child(2){border-color:var(--blush)}.post:nth-child(3){border-color:var(--acid)}
+.quote{background:var(--plum);position:relative;overflow:hidden}.quote:after{content:"G";position:absolute;right:4vw;top:-6vw;color:var(--blush);font:italic 22rem Georgia,serif;opacity:.16}
+.pagehero{background:var(--plum);border-bottom:14px solid var(--blush)}.pagehero .kicker{color:var(--acid)}
+.filters{background:var(--soft);border-bottom:1px solid var(--line)}
+.filters button{border:1px solid var(--plum);background:var(--pearl);font-weight:700}.filters .on{background:var(--acid);color:var(--plum)}
+.split>div,.contact>div,.contact>form{background:var(--soft)}input,textarea{border:1px solid var(--line);background:var(--pearl)}
+.article>img{box-shadow:16px 16px 0 var(--blush)}.article aside{background:var(--acid);border-left:10px solid var(--cobalt)}
+.policy h2{color:var(--cobalt)}
+footer{background:var(--plum);border-top:6px solid var(--cobalt)}footer h3{color:var(--acid)}.copyright{background:#140b17}
+.cookie{border:2px solid var(--plum);box-shadow:8px 8px 0 var(--cobalt)}
+@media(max-width:850px){header nav{background:var(--pearl)}.hero{background:linear-gradient(160deg,var(--pearl) 0 53%,var(--blush) 53%)}.hero figure{margin:0 1.5rem 3rem;box-shadow:10px 10px 0 var(--cobalt)}}
+@media(max-width:520px){header{height:78px}.hero-copy{padding:4rem 1.2rem}.hero h1{font-size:3.2rem}.lookbook{padding:4rem 1rem}.product{padding:.6rem}.pagehero{padding:5rem 1.2rem 3rem}}
